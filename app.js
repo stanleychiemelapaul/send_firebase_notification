@@ -21,7 +21,7 @@ admin.initializeApp({
 
 // Push new notifications using firebase
 
-app.post("./", async (req, res, next) => {
+app.post("/", async (req, res, next) => {
   try {
     const { Msgtitle, MsgBody } = req.body;
     const errors = validationResult(req);
