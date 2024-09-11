@@ -1,0 +1,39 @@
+{
+  "name": "send_firebase_notification",
+  "version": "1.0.0",
+  "description": "Send Notification to Devices using Firebase Cloud Messaging API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanleychiemelapaul/send_firebase_notification.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Notification",
+    "Send",
+    "Notification",
+    "to",
+    "Devices",
+    "using",
+    "Firebase",
+    "Cloud",
+    "Messaging",
+    "API"
+  ],
+  "author": "Stanley Chiemela Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanleychiemelapaul/send_firebase_notification/issues"
+  },
+  "homepage": "https://github.com/stanleychiemelapaul/send_firebase_notification#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.20.0",
+    "express-validator": "^7.2.0",
+    "firebase-admin": "^12.4.0"
+  }
+}
