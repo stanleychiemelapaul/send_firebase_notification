@@ -51,7 +51,7 @@ app.post("./", async (req, res, next) => {
         // Extract the tokens from the result
         const deviceTokens = result.map((row) => row.DeviceToken);
 
-        // Split deviceTokens into chunks of 500
+        // Split deviceTokens into chunks of 500. Firebase allows maximum of 500 tokens for each multicast request.
         const registrationTokenGroups = chunkArray(deviceTokens, 500);
 
         // Prepare a list to hold the promises of each notification sending request
